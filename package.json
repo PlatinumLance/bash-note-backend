@@ -1,22 +1,32 @@
 {
-  "name": "bash-note-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PlatinumLance/bash-note-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/PlatinumLance/bash-note-backend/issues"
-  },
-  "homepage": "https://github.com/PlatinumLance/bash-note-backend#readme"
+	"name": "bash-note-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tsx watch src/app.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PlatinumLance/bash-note-backend.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/PlatinumLance/bash-note-backend/issues"
+	},
+	"homepage": "https://github.com/PlatinumLance/bash-note-backend#readme",
+	"dependencies": {
+		"express": "^5.3.0",
+		"package.json": "^2.0.1"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/node": "^26.6.5",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	}
 }
